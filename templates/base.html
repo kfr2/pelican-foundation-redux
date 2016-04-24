@@ -41,6 +41,12 @@
                 </span>
             {% endif %}
 
+            {% if GITLAB_USERNAME %}
+                <span data-tooltip class="has-tip tip-top" title="gitlab">
+                    <a href="https://gitlab.com/{{ GITLAB_USERNAME }}" class="button small"><i class="fa fa-gitlab"></i></a>
+                </span>
+            {% endif %}
+
             {% if TWITTER_USERNAME %}
                 <span data-tooltip class="has-tip tip-top" title="twitter">
                     <a href="https://twitter.com/{{ TWITTER_USERNAME }}" class="button small"><i class="fa fa-twitter"></i></a>

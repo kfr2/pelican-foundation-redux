@@ -22,6 +22,7 @@ The following are the Pelican global variables currently supported by the theme.
 * `TAGLINE` -- the text to display underneath AUTHOR in the left-hand menu.
 * `MENUITEMS` -- (('name1', 'url1', 'fa fa-icon-class'), ('name2', 'url2', 'fa fa-icon-class'))
 * `GITHUB_USERNAME` -- if set, a link to the specified Github account will be displayed in the header
+* `GITLAB_USERNAME` -- if set, a link to the specified Gitlab account will be displayed in the header
 * `TWITTER_USERNAME` -- if set, a link to the specified Twitter account will be displayed in the header
 * `FOOTER_MESSAGE` -- the message to display in the footer of the page. Defaults to "Powered by Pelican and Pelican-Foundation."
 
