@@ -35,6 +35,12 @@
                 </span>
             {% endfor %}
 
+            {% if LINKEDIN_USERNAME %}
+                <span data-tooltip class="has-tip tip-top" title="linkedin">
+                    <a href="https://linkedin.com/in/{{ LINKEDIN_USERNAME }}" class="button small"><i class="fa fa-linkedin"></i></a>
+                </span>
+            {% endif %}
+
             {% if GITHUB_USERNAME %}
                 <span data-tooltip class="has-tip tip-top" title="github">
                     <a href="https://github.com/{{ GITHUB_USERNAME }}" class="button small"><i class="fa fa-github-alt"></i></a>
